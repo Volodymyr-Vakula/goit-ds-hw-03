@@ -1,0 +1,20 @@
+[project]
+name = "goit-ds-hw-03"
+version = "0.1.0"
+description = "Data Science Module 3 Homework"
+authors = [
+    {name = "Volodymyr Vakula",email = "vakula.volodymyr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymongo (>=4.11.3,<5.0.0)",
+    "lxml (>=5.3.2,<6.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "beautifulsoup4 (>=4.13.3,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
