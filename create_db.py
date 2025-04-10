@@ -6,7 +6,7 @@ def load_from_json_file(path: str) -> list[dict]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-db = client.books
+db = client.famous_quotes
 
 try:
     db.quotes.insert_many(load_from_json_file("quotes.json"))
